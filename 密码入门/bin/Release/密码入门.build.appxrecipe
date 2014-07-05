@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>YZKK</Machine>
+    <WindowsUser>ruby</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="H:\code\密码入门\密码入门\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\密码入门.exe">
+      <PackagePath>密码入门.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\密码入门.pdb">
+      <PackagePath>密码入门.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\boss.png">
+      <PackagePath>Assets\boss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\noti.png">
+      <PackagePath>Assets\noti.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\jiami.jpg">
+      <PackagePath>Assets\jiami.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\jiemi.jpg">
+      <PackagePath>Assets\jiemi.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\kenan.jpg">
+      <PackagePath>Assets\kenan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\kenan2.jpg">
+      <PackagePath>Assets\kenan2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\maoli.jpg">
+      <PackagePath>Assets\maoli.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\pingci.jpg">
+      <PackagePath>Assets\pingci.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\right.jpg">
+      <PackagePath>Assets\right.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\shiliang.jpg">
+      <PackagePath>Assets\shiliang.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\youzuo.jpg">
+      <PackagePath>Assets\youzuo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\challenge.xaml">
+      <PackagePath>challenge.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\enCodePage.xaml">
+      <PackagePath>enCodePage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\indexPage.xaml">
+      <PackagePath>indexPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\introduction.xaml">
+      <PackagePath>introduction.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

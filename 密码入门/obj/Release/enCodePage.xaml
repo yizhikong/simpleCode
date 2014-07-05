@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="密码入门.enCodePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:密码入门"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' HorizontalAlignment="Left" Style="{StaticResource BackButtonStyle}"                         Margin="25,0,0,666"/>
+        <TextBox x:Name="origin" HorizontalAlignment="Left" Margin="270,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="75" Width="894" FontSize="40"/>
+        <TextBox x:Name="ans" HorizontalAlignment="Left" Margin="270,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="75" Width="894" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="132,179,0,0" TextWrapping="Wrap" Text="原文" VerticalAlignment="Top" Height="55" Width="90" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="132,319,0,0" TextWrapping="Wrap" Text="密文" VerticalAlignment="Top" Height="55" Width="90" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="132,581,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="945" Text="* 请确保输入字符的全部为字母" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="132,620,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="945" Text="* 若想得到二重加密，可将密文重复加密一次" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="132,659,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="945" Text="* 请不要加密多次，否则加密难度将大大增大" FontSize="25"/>
+        <Button x:ConnectionId='2' x:Name="submit" Content="加密" HorizontalAlignment="Left" Margin="1036,453,0,0" VerticalAlignment="Top" Height="60" Width="128" FontSize="30"                       />
+        <ComboBox x:Name="choice" HorizontalAlignment="Left" Margin="815,453,0,0" VerticalAlignment="Top" Width="165" Height="60" SelectedIndex="0">
+            <ComboBoxItem Content="凯撒加密"/>
+            <ComboBoxItem Content="栅栏加密"/>
+            <ComboBoxItem Content="键盘加密"/>
+            <ComboBoxItem Content="字母-数字加密"/>
+        </ComboBox>
+
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar Padding="10,0,10,0">
+            <Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button x:ConnectionId='3' Style="{StaticResource HelpAppBarButtonStyle}" Height="84" VerticalAlignment="Bottom"                       />
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="密码入门.challenge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:密码入门"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button HorizontalAlignment="Left" Style="{StaticResource BackButtonStyle}" Click="Button_Click_1" Margin="25,0,0,666"/>
+        <TextBlock x:Name="tCode" HorizontalAlignment="Left" Margin="189,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="84" Width="713" FontFamily="Global User Interface" FontSize="40"/>
+        <TextBox x:Name="userReply" HorizontalAlignment="Left" Margin="189,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="68" Width="713" FontSize="40"/>
+        <TextBlock x:Name="answer" HorizontalAlignment="Left" Margin="189,309,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="68" Width="713" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,102,0,0" TextWrapping="Wrap" Text="密文" VerticalAlignment="Top" Height="55" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="87,200,0,0" TextWrapping="Wrap" Text="明文" VerticalAlignment="Top" Height="53" Width="87" FontSize="40"/>
+        <Button Content="提示" HorizontalAlignment="Left" Margin="189,660,0,0" VerticalAlignment="Top" Click="tips" Height="56" Width="94" FontSize="30"/>
+        <Button x:Name="submit" Content="提交" HorizontalAlignment="Left" Margin="1184,660,0,0" VerticalAlignment="Top" Height="56" Width="94" FontSize="30" Click="submit_Click"/>
+        <Button Content="放弃" HorizontalAlignment="Left" Margin="1050,660,0,0" VerticalAlignment="Top" Height="56" Width="94" FontSize="30" Click="giveup"/>
+        <Image x:Name="level1" Source="Assets/maoli.jpg" HorizontalAlignment="Left" Height="275" Margin="1003,102,0,0" VerticalAlignment="Top" Width="275"/>
+        <Image x:Name="level2" Source="Assets/shiliang.jpg" HorizontalAlignment="Left" Height="275" Margin="1003,102,0,0" VerticalAlignment="Top" Width="275"/>
+        <Image x:Name="level3" Source="Assets/pingci.jpg" HorizontalAlignment="Left" Height="275" Margin="1003,102,0,0" VerticalAlignment="Top" Width="275"/>
+        <Image x:Name="level4" Source="Assets/kenan2.jpg" HorizontalAlignment="Left" Height="275" Margin="1003,102,0,0" VerticalAlignment="Top" Width="275"/>
+        <Image x:Name="level5" Source="Assets/youzuo.jpg" HorizontalAlignment="Left" Height="275" Margin="1003,102,0,0" VerticalAlignment="Top" Width="275"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1050,416,0,0" TextWrapping="Wrap" Text="分数" VerticalAlignment="Top" Height="63" Width="149" FontSize="30"/>
+        <TextBlock x:Name="point" HorizontalAlignment="Left" Margin="1142,406,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="63" Width="113" FontSize="50" Foreground="White" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="189,464,0,0" TextWrapping="Wrap" Text="* 对每一题，回答正确加10分，错误扣5分" VerticalAlignment="Top" Height="37" Width="557" FontFamily="Global User Interface" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="189,506,0,0" TextWrapping="Wrap" Text="* 共有5次提示机会，每次使用将消耗5分" VerticalAlignment="Top" Height="37" Width="557" FontFamily="Global User Interface" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="189,548,0,0" TextWrapping="Wrap" Text="* 放弃回答将扣5分" VerticalAlignment="Top" Height="37" Width="557" FontFamily="Global User Interface" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="189,590,0,0" TextWrapping="Wrap" Text="* 人物头像将根据分数变化" VerticalAlignment="Top" Height="37" Width="557" FontFamily="Global User Interface" FontSize="25"/>
+
+    </Grid>
+</Page>

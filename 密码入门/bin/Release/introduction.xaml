@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="密码入门.introduction"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:密码入门"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <Button x:ConnectionId='1' HorizontalAlignment="Left" Style="{StaticResource BackButtonStyle}"                         Margin="25,0,0,666"/>
+        <Button x:Name="title" Content=""  HorizontalAlignment="Left" Margin="78,38,0,0" VerticalAlignment="Top" Height="85" Width="1226" FontSize="40"/>
+        <TextBlock x:Name="intro" HorizontalAlignment="Left" Margin="78,156,0,0" TextWrapping="Wrap" Text=""  VerticalAlignment="Top" Height="562" Width="828" FontSize="30"/>
+        <ListView Header="例子" FontSize="40" Name="example" HorizontalAlignment="Left" Height="523" Margin="955,195,0,0" VerticalAlignment="Top" Width="401">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock FontSize="25" Text="{Binding Msg}" Width="370" Margin="0,12,0,0"/>
+                        <TextBlock FontSize="25" Text="{Binding Code}" Width="370" Margin="0,3,0,0"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
+

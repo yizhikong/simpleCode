@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>YZKK</Machine>
+    <WindowsUser>ruby</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>A214991191D931C02A4E6A9B80E6D2311F7ABEB6F9501A7049A0EC4E21B2D088</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>52197Mr.Chan.16094A90BD21C_1.0.0.4_neutral__vfm7m0prcv97t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>52197Mr.Chan.16094A90BD21C_vfm7m0prcv97t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>52197Mr.Chan.16094A90BD21C</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=37208691-97E9-4FCE-B256-2B98458207AB</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.4</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="H:\code\密码入门\密码入门\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-16T13:48:24.604</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\密码入门.exe">
+      <PackagePath>密码入门.exe</PackagePath>
+      <Modified>2014-06-13T07:20:32.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\密码入门.pdb">
+      <PackagePath>密码入门.pdb</PackagePath>
+      <Modified>2014-06-13T07:20:32.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\boss.png">
+      <PackagePath>Assets\boss.png</PackagePath>
+      <Modified>2014-05-11T15:18:16.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-12T18:10:56.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\noti.png">
+      <PackagePath>Assets\noti.png</PackagePath>
+      <Modified>2014-05-16T10:07:53.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-16T09:07:08.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-12T18:11:22.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-12T18:15:27.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\jiami.jpg">
+      <PackagePath>Assets\jiami.jpg</PackagePath>
+      <Modified>2014-05-11T15:10:26.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\jiemi.jpg">
+      <PackagePath>Assets\jiemi.jpg</PackagePath>
+      <Modified>2014-05-11T14:24:58.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\kenan.jpg">
+      <PackagePath>Assets\kenan.jpg</PackagePath>
+      <Modified>2014-05-11T15:09:47.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\kenan2.jpg">
+      <PackagePath>Assets\kenan2.jpg</PackagePath>
+      <Modified>2014-05-12T12:37:22.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\maoli.jpg">
+      <PackagePath>Assets\maoli.jpg</PackagePath>
+      <Modified>2014-05-12T16:15:10.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\pingci.jpg">
+      <PackagePath>Assets\pingci.jpg</PackagePath>
+      <Modified>2014-05-12T12:55:17.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\right.jpg">
+      <PackagePath>Assets\right.jpg</PackagePath>
+      <Modified>2014-05-12T16:32:56.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\shiliang.jpg">
+      <PackagePath>Assets\shiliang.jpg</PackagePath>
+      <Modified>2014-05-12T12:36:15.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\Assets\youzuo.jpg">
+      <PackagePath>Assets\youzuo.jpg</PackagePath>
+      <Modified>2014-05-12T12:38:09.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-05-11T13:35:12.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\challenge.xaml">
+      <PackagePath>challenge.xaml</PackagePath>
+      <Modified>2014-05-12T16:41:43.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2014-05-12T17:25:05.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\enCodePage.xaml">
+      <PackagePath>enCodePage.xaml</PackagePath>
+      <Modified>2014-05-12T17:34:07.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\indexPage.xaml">
+      <PackagePath>indexPage.xaml</PackagePath>
+      <Modified>2014-05-13T12:18:37.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\introduction.xaml">
+      <PackagePath>introduction.xaml</PackagePath>
+      <Modified>2014-05-13T12:18:31.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-05-16T09:39:33.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="H:\code\密码入门\密码入门\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-05-16T13:48:24.366</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
